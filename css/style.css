@@ -1,0 +1,523 @@
+body {
+    margin: 0;
+    padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #383838;
+	line-height: 24px;
+	background:url(../images/059.jpg)
+}
+
+a {
+    color: #1e5490;
+    text-decoration: none;
+    outline-color: invert;
+    outline-style: none;
+    outline-width: medium;
+	
+}
+a:hover{text-decoration:underline}
+
+.header{
+	background: url(../images/header_bg.jpg)repeat-x;
+	height:120px; 
+	width:100%;
+	overflow: hidden;
+	
+}
+.logo img{
+	height:110px;
+	width:50%;
+	padding:15px;
+	margin-left:100px;
+	float:left;
+}
+
+.icon {
+	margin-left: 100px;
+	float:left;
+}
+
+
+
+
+
+
+.icon img{
+	height:30px;
+	width:30px;
+	float:left;
+	margin-top:50px;
+	padding:0px 6px;
+}
+/*****************End Header**********************/
+
+
+#navWrap {
+   background: url(../images/menu_background.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0 auto;	
+}
+
+#nav {
+	height: 49px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#nav ul{
+	list-style: none;
+	position: relative;
+	padding: 0px 0px 0px 150px;
+	margin: 0;
+}
+
+#nav ul li {
+	display: inline-block;
+}
+
+#nav ul li a {
+	color: #FFF;
+	display: block;
+	padding: 0px 10px;
+	text-decoration: none;
+    font-family: 'Oswald',sans-serif;
+	font-weight: bold;
+	line-height: 49px;
+	font-size:16px;
+}
+
+#nav ul li a:hover {
+	background:#E28D17;
+	color:#000;
+	transition:all 1s;
+
+}
+
+#nav ul li:hover a {
+	background: #E28D17;
+	color: #000;
+}
+
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background: #E28D17;
+	min-width: 200px;
+	padding: 5px 0px;
+}
+
+#nav ul li:hover ul {
+	display: block;
+}
+
+#nav ul ul li {
+	display: block;
+	background: none;
+	border-bottom: 1px solid #F9FAFA;
+}
+
+#nav ul ul li a {
+	color: #000 !important;
+	font-size: 16px;
+	font-weight:bold;
+	padding: 0px 0px 0px 10px;
+}
+
+#nav ul ul li a:hover {
+	background: #6682D0;
+	color: #FFF!important;
+}
+
+a.active {
+	background: #E28D17;
+	color: #000!important;
+}
+/******************End Nav Bar*********************/
+
+#wrapper {
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(50,50,50,1);
+    -moz-box-shadow: 0 0 10px 0 rgba(50,50,50,1);
+    box-shadow: 0 0 10px 0 rgba(50,50,50,1);
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 1px;
+	
+}
+
+#banner {
+    background: url(../images/banner_bg.jpg) repeat-x left bottom;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+	margin-top:5px;
+}
+
+
+#banner img {
+	width: 100%;
+	height:300px;
+}
+
+
+#container {
+    padding: 15px 10px;
+}
+#Left_2col{
+	float:left;
+	width:75%
+}
+.Left_1col table tr td{
+	border: 1px solid gray;
+}
+
+#leftCol {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+.moduletable {
+    background: #f8f8f8;
+    border: 1px solid #e4e4e4;
+    padding: 2px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 18px;
+}
+
+#rightCol h3, #leftCol h3{
+    background: url(../images/h3_bg.jpg) repeat-x left top;
+    height: 38px;
+    padding-left: 12px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #383838;
+}
+
+#rightCol h3 span, #leftCol h3 span {
+    color: #1e5490;
+}
+
+
+#leftCol .module-body, #rightCol .module-body {
+    padding: 0 12px 15px;
+}
+
+#leftCol ul, #rightCol ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#leftCol ul li, #rightCol ul li {
+    padding: 5px 0;
+}
+#leftCol a:hover {
+	border-bottom: 1px solid #1e5490;
+}
+
+.Left_1col{
+	width: 75%;
+    float: left;
+    text-align: justify;
+}
+.Left_1col table{
+	width:98%
+
+}
+.Left_1col table th{
+	text-align:center;
+	background:gray;
+	color:white;
+	
+}
+
+#midCol {
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+#midCol #content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+#content h1 {
+	margin: 0;
+	padding:0;
+	font-size: 20px;
+}
+
+#content img{
+	width: 100%;
+	height: 250px;
+}
+
+
+#rightCol {
+    float: left;
+    width: 25%;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer{
+	width: 99.6%;
+	background: #4D4B4C;
+	height: 100px;
+	margin: 0.2%;
+}
+
+.footer_name{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 10px;	
+}
+.footer_bottom{
+	text-align: center;
+	color: #fff;
+	padding-top: 8px;	
+}
+.footer_bottom a{
+	
+	color: #fff;
+	text-decoration:underline	
+}
+#footer_1 p{
+		float:left;
+}
+#footer_2 {
+	padding:10px 0px;
+	float:right;	
+}
+/******************End Wrapper***********************/
+
+#Study_tour h1{
+ text-align:center;
+ text-decoration:underline;
+}
+#Study_tour p{
+	text-align:center;
+}
+
+
+
+#Study_tour img{
+	border: 2px solid green;
+	height:200px;
+	width:250px
+}
+#comment_box{
+	border:1px solid gray;
+	width:50%;
+	margin: 0px 200px;
+	background:url(../images/h3_bg.jpg)repeat-x;
+	
+}
+#comment_box a{
+	padding:0 10px 0 0;
+}
+#comment_box p{
+	background:#359A67;
+	padding: 0 0 0 30px;
+	color:#fff
+	
+}
+.name,.email{
+	 width:250px;
+	 margin-left:200px;
+}
+#comment_box textarea{
+	margin-left:200px;
+}
+#post_comment {
+	height:30px;
+	background:#329966;
+	line-height:30px;
+	text-align:center
+}
+
+#left_1{
+	width:50%;
+	float:left;
+}
+#left_2{
+	width:50%;
+	float:left
+}
+#left_1 input{
+	background:#F8F8F8;
+	width:200px;
+}
+#left_2 input{
+	background:#F8F8F8;
+	width:200px;
+}
+#Left_1col textarea{
+	background:#F8F8F8;
+}
+.button{
+	margin-left:400px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

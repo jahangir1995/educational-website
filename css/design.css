@@ -1,0 +1,37 @@
+body
+{
+	
+	background-image: url(../images/design.jpg);
+    background-size: cover;
+    position:relative;
+}
+
+.main
+{
+	width:100%;
+	min-height:950px;
+	//background:white;
+	
+}
+.content
+{
+	width:80%;
+	min-height:700px;
+	//background:white;
+	background: rgba(240,10,200,0.3);
+	position:absolute;
+	top:110px;
+	margin: 0px 0px 0px 92px;
+}
+
+.button_1{
+	 margin-left:20px;
+	 margin-top:20px;
+	
+}
+
+.content h1{
+color: 	#FF0000;
+
+}
+
